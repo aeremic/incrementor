@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Incrementor.Console/1.0.0": {
+      "Incrementor.Logic/1.0.0": {
         "dependencies": {
-          "Incrementor.Logic": "1.0.0"
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
         },
         "runtime": {
-          "Incrementor.Console.dll": {}
+          "Incrementor.Logic.dll": {}
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -21,19 +21,11 @@
             "fileVersion": "0.0.0.0"
           }
         }
-      },
-      "Incrementor.Logic/1.0.0": {
-        "dependencies": {
-          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
-        },
-        "runtime": {
-          "Incrementor.Logic.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Incrementor.Console/1.0.0": {
+    "Incrementor.Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -44,11 +36,6 @@
       "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
       "path": "microsoft.office.interop.excel/15.0.4795.1001",
       "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
-    },
-    "Incrementor.Logic/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

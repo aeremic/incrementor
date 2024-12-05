@@ -12,3 +12,8 @@
 /Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.pdb
 /Users/eremic/Incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.genruntimeconfig.cache
 /Users/eremic/Incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/ref/Incrementor.Console.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Logic.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Logic.pdb
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.csproj.AssemblyReference.cache
+/Users/eremic/Incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.csproj.CopyComplete
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Microsoft.Office.Interop.Excel.dll

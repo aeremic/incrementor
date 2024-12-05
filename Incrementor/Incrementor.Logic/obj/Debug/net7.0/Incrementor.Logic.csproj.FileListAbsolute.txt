@@ -1,0 +1,12 @@
+/Users/eremic/Incrementor/Incrementor/Incrementor.Logic/bin/Debug/net7.0/Incrementor.Logic.deps.json
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/bin/Debug/net7.0/Incrementor.Logic.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/bin/Debug/net7.0/Incrementor.Logic.pdb
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.AssemblyInfoInputs.cache
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.AssemblyInfo.cs
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.csproj.CoreCompileInputs.cache
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/refint/Incrementor.Logic.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.pdb
+/Users/eremic/Incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/ref/Incrementor.Logic.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/Debug/net7.0/Incrementor.Logic.csproj.AssemblyReference.cache

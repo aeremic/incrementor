@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PUMaHUcpnVoUnoXsZ6ci9m3T5i3Yu58TxzXfFiPG9NpOhK6p1bMpRapoBJAdVjRR4Mr47b9cw7nUEDYCUNfqxw==",
+  "dgSpecHash": "+YroBN6YmC40nygrOh0P5ux68q8SZkatd8cwYrHjDO2XfAqK5Mqb7duPH962nNunTXGlp8nU2XedUjmkQ/KL/g==",
   "success": true,
   "projectFilePath": "/Users/eremic/Incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/eremic/.nuget/packages/microsoft.office.interop.excel/15.0.4795.1001/microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
   "logs": []
 }
