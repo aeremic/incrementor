@@ -1,0 +1,14 @@
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Console
+/Users/eremic/Incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Console.deps.json
+/Users/eremic/Incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Console.runtimeconfig.json
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Console.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/bin/Debug/net7.0/Incrementor.Console.pdb
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.AssemblyInfoInputs.cache
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.AssemblyInfo.cs
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.csproj.CoreCompileInputs.cache
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/refint/Incrementor.Console.dll
+/Users/eremic/incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.pdb
+/Users/eremic/Incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/Incrementor.Console.genruntimeconfig.cache
+/Users/eremic/Incrementor/Incrementor/Incrementor.Console/obj/Debug/net7.0/ref/Incrementor.Console.dll
