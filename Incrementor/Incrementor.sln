@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Console", "Incr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Logic", "Incrementor.Logic\Incrementor.Logic.csproj", "{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Tests", "Incrementor.Tests\Incrementor.Tests.csproj", "{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

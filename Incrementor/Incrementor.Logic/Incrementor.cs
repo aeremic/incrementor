@@ -32,15 +32,33 @@ public class Incrementor
         var rowsCount = usedRange.Rows.Count;
         var columnsCount = usedRange.Columns.Count;
         
+        // var data = [,] save all data into matrix and then increment it separately into new sheet
         for (var i = 1; i <= rowsCount; i++)
         {
             for (var j = 1; j <= columnsCount; j++)
             {
-                Console.WriteLine((string)(usedRange.Cells[i, j] as Interop.Range)?.Value2!);
+                // Console.WriteLine((string)(usedRange.Cells[i, j] as Interop.Range)?.Value2!);
+                System.Diagnostics.Debug.WriteLine((string)(usedRange.Cells[i, j] as Interop.Range)?.Value2!);
+                usedRange.Cells[i, j + 1] = "new value";
             }
         }
 
-        excelWorkbook.Close(true, null, null);
+        // excelWorkbook.Close(true, "testingExcel", null);
+        var outputFileName = "";
+        excelWorkbook.SaveAs(
+            outputFileName, 
+            System.Reflection.Missing.Value,
+            System.Reflection.Missing.Value,
+            System.Reflection.Missing.Value, 
+            System.Reflection.Missing.Value, 
+            System.Reflection.Missing.Value,
+            Interop.XlSaveAsAccessMode.xlNoChange, 
+            System.Reflection.Missing.Value, 
+            System.Reflection.Missing.Value, 
+            System.Reflection.Missing.Value,
+            System.Reflection.Missing.Value,
+            System.Reflection.Missing.Value);
+        
         excelApplication.Quit();
         
         // calculate
