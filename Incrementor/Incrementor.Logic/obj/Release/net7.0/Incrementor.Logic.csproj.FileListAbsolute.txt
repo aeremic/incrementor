@@ -1,0 +1,13 @@
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\bin\Release\net7.0\Incrementor.Logic.deps.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\bin\Release\net7.0\Incrementor.Logic.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\bin\Release\net7.0\Incrementor.Logic.pdb
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.csproj.AssemblyReference.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.AssemblyInfoInputs.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.AssemblyInfo.cs
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.sourcelink.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\refint\Incrementor.Logic.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\Incrementor.Logic.pdb
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Release\net7.0\ref\Incrementor.Logic.dll

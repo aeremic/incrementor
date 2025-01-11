@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Incrementor.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86a34a50de7da84bd330c9466278778a1730c23f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ffbf52740eb82b9d6c7ae05fa89d86ededabc0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Incrementor.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Incrementor.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

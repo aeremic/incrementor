@@ -21,7 +21,7 @@ public class IncrementorParsingResult
 
 public static class Incrementor
 {
-    public static IncrementorParsingResult ProcessData(string inputFilePath)
+    public static IncrementorParsingResult ProcessData(string inputFilePath, string outputFilePath)
     {
         var result = new IncrementorParsingResult();
         try
@@ -44,9 +44,7 @@ public static class Incrementor
                     }
                 }
             }
-
-            const string outputFilePath = "Output.xlsx";
-
+            
             workbook.SaveAs(outputFilePath);
 
             result.ParsingResult = true;

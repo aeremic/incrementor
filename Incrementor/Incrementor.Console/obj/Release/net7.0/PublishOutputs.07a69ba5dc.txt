@@ -1,0 +1,15 @@
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Console.exe
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Console.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Console.deps.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Console.runtimeconfig.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Console.pdb
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\ClosedXML.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\ClosedXML.Parser.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\DocumentFormat.OpenXml.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\ExcelNumberFormat.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\RBush.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\SixLabors.Fonts.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\System.IO.Packaging.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Logic.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Release\net7.0\publish\Incrementor.Logic.pdb
