@@ -56,9 +56,9 @@ namespace Incrementor.WPF
             {
                 return;
             }
-            
+
             var incrementorParsingResult = Logic.Incrementor
-                .ProcessData(_inputFilePath, Path.Combine(_outputFilePath,"Output.xlsx"));
+                .ProcessData(_inputFilePath, Path.Combine(_outputFilePath, "Output.xlsx"));
             if (incrementorParsingResult.ParsingResult)
             {
                 MessageBox.Show(
