@@ -7,10 +7,10 @@ namespace Incrementor.WPF
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
-        private string inputFilePath = string.Empty;
-        private string outputFilePath = string.Empty;
+        private string _inputFilePath = string.Empty;
+        private string _outputFilePath = string.Empty;
 
         public MainWindow()
         {
@@ -32,8 +32,8 @@ namespace Incrementor.WPF
                 return;
             }
 
-            inputFilePath = dlg.FileName;
-            InputLocationTextBox.Text = inputFilePath;
+            _inputFilePath = dlg.FileName;
+            InputLocationTextBox.Text = _inputFilePath;
         }
 
         private void SaveLocationButton_Click(object sender, RoutedEventArgs e)
@@ -45,20 +45,20 @@ namespace Incrementor.WPF
                 return;
             }
 
-            outputFilePath = folderDialog.FolderName;
-            SaveLocationTextBox.Text = outputFilePath;
+            _outputFilePath = folderDialog.FolderName;
+            SaveLocationTextBox.Text = _outputFilePath;
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrEmpty(inputFilePath)
-                || string.IsNullOrEmpty(outputFilePath))
+            if (string.IsNullOrEmpty(_inputFilePath)
+                || string.IsNullOrEmpty(_outputFilePath))
             {
                 return;
             }
             
             var incrementorParsingResult = Logic.Incrementor
-                .ProcessData(inputFilePath, Path.Combine(outputFilePath,"Output.xlsx"));
+                .ProcessData(_inputFilePath, Path.Combine(_outputFilePath,"Output.xlsx"));
             if (incrementorParsingResult.ParsingResult)
             {
                 MessageBox.Show(
