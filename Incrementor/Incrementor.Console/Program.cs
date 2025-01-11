@@ -1,7 +1,7 @@
-﻿var incrementor = new Incrementor.Logic.Incrementor();
+﻿var inputFilePath = @"C:\Users\Andrija\Downloads\Book1.xlsx"; // Console.ReadLine() ?? string.Empty; //  
 
-var inputFilePath = @"C:\Users\Andrija\Downloads\Book1.xlsx"; // Console.ReadLine() ?? string.Empty; //  
+var incrementorParsingResult = Incrementor.Logic.Incrementor.ProcessData(inputFilePath);
 
-var (parsingResult, outputFilePath) = incrementor.ProcessData(inputFilePath);
-
-Console.WriteLine(parsingResult ? $"New file saved as ${outputFilePath}" : "New file not saved.");
+Console.WriteLine(incrementorParsingResult.ParsingResult
+    ? $"New file saved as {incrementorParsingResult.OutputFilePath}"
+    : $"New file not saved. Code: {(int)incrementorParsingResult.ErrorType}. {incrementorParsingResult.ErrorMessage}");

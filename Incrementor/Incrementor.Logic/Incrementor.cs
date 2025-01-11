@@ -1,15 +1,31 @@
-﻿namespace Incrementor.Logic;
+﻿using ClosedXML.Excel;
 
-using ClosedXML.Excel;
+namespace Incrementor.Logic;
 
-public class Incrementor
+public enum IncrementorParsingResultErrorType
 {
-    public (bool, string) ProcessData(string inputFilePath)
+    None = -1,
+    FileNotFound,
+    Io,
+    Argument,
+    Unhandled
+}
+
+public class IncrementorParsingResult
+{
+    public bool ParsingResult { get; set; }
+    public string OutputFilePath { get; set; } = string.Empty;
+    public IncrementorParsingResultErrorType ErrorType { get; set; } = IncrementorParsingResultErrorType.None;
+    public string ErrorMessage { get; set; } = string.Empty;
+}
+
+public static class Incrementor
+{
+    public static IncrementorParsingResult ProcessData(string inputFilePath)
     {
+        var result = new IncrementorParsingResult();
         try
         {
-            const string outputFilePath = "Output.xlsx";
-            
             var workbook = new XLWorkbook(inputFilePath);
             var worksheet = workbook.Worksheet(1);
 
@@ -29,15 +45,47 @@ public class Incrementor
                 }
             }
 
+            const string outputFilePath = "Output.xlsx";
+
             workbook.SaveAs(outputFilePath);
 
-            return (true, outputFilePath);
+            result.ParsingResult = true;
+            result.OutputFilePath = outputFilePath;
+            result.ErrorMessage = string.Empty;
+        }
+        catch (FileNotFoundException)
+        {
+            // TODO: Log.
+            result.ParsingResult = false;
+            result.OutputFilePath = string.Empty;
+            result.ErrorType = IncrementorParsingResultErrorType.FileNotFound;
+            result.ErrorMessage = "Error: File not found.";
+        }
+        catch (IOException)
+        {
+            // TODO: Log.
+            result.ParsingResult = false;
+            result.OutputFilePath = string.Empty;
+            result.ErrorType = IncrementorParsingResultErrorType.Io;
+            result.ErrorMessage = "Error: File path not found or file used by other programs.";
+        }
+        catch (ArgumentException)
+        {
+            // TODO: Log.
+            result.ParsingResult = false;
+            result.OutputFilePath = string.Empty;
+            result.ErrorType = IncrementorParsingResultErrorType.Argument;
+            result.ErrorMessage = "Error: File path or file extension invalid.";
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Unhandled exception: ${0}", ex);
+            // TODO: Log.
+            result.ParsingResult = false;
+            result.OutputFilePath = string.Empty;
+            result.ErrorType = IncrementorParsingResultErrorType.Unhandled;
+            result.ErrorMessage = ex.ToString();
         }
 
-        return (false, "");
+        return result;
     }
 }
