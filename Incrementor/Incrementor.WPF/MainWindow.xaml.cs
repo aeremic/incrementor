@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Windows;
 using Microsoft.Win32;
 
@@ -54,11 +55,18 @@ namespace Incrementor.WPF
             if (string.IsNullOrEmpty(_inputFilePath)
                 || string.IsNullOrEmpty(_outputFilePath))
             {
+                MessageBox.Show(
+                    $"Please select both input and save locations.",
+                    "Input locations missing",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+
                 return;
             }
 
             var incrementorParsingResult = Logic.Incrementor
-                .ProcessData(_inputFilePath, Path.Combine(_outputFilePath, "Output.xlsx"));
+                .ProcessData(_inputFilePath, Path.Combine(_outputFilePath,
+                    $"Output-{Guid.NewGuid().ToString()}.xlsx"));
             if (incrementorParsingResult.ParsingResult)
             {
                 MessageBox.Show(
