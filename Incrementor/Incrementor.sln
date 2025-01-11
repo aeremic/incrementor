@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Console", "Incrementor.Console\Incrementor.Console.csproj", "{ED6E2104-CA9F-41EA-ABFE-726DC92503C3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incrementor.Console", "Incrementor.Console\Incrementor.Console.csproj", "{ED6E2104-CA9F-41EA-ABFE-726DC92503C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Logic", "Incrementor.Logic\Incrementor.Logic.csproj", "{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incrementor.Logic", "Incrementor.Logic\Incrementor.Logic.csproj", "{347FCF7D-B6A6-4A4C-8238-5438A5321A6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.Tests", "Incrementor.Tests\Incrementor.Tests.csproj", "{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incrementor.Tests", "Incrementor.Tests\Incrementor.Tests.csproj", "{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementor.WPF", "Incrementor.WPF\Incrementor.WPF.csproj", "{BC7FF723-FB54-488F-AAF4-452CC2169F2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3087A0-5DFC-456A-8BB1-8FC857F7287F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7FF723-FB54-488F-AAF4-452CC2169F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7FF723-FB54-488F-AAF4-452CC2169F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7FF723-FB54-488F-AAF4-452CC2169F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7FF723-FB54-488F-AAF4-452CC2169F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66F5B2AA-1A0E-4929-839B-900A9DC9F887}
 	EndGlobalSection
 EndGlobal

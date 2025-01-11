@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fPj4xAUAvODaJAGshDg+1ucEGbFQjMC3seymLXVsHn48YTgMHSnqNFeLh4eQyK8h7eQb5LbeX+EDizprm1HsxQ==",
+  "dgSpecHash": "7HpmVJvR6qGsdzfWqlUm2rBjDhoiWwpnBwOfUqaUfc3gGeUMhGF2qEqONFD+4oU5joQld0vWe1/PPi6ol0sDEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Tests\\Incrementor.Tests.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.20\\microsoft.netcore.app.runtime.win-x64.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.20\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.20\\microsoft.aspnetcore.app.runtime.win-x64.7.0.20.nupkg.sha512",
-    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.20\\microsoft.netcore.app.crossgen2.win-x64.7.0.20.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

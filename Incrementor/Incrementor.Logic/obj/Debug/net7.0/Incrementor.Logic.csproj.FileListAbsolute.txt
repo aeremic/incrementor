@@ -18,7 +18,6 @@ C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incr
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.AssemblyInfoInputs.cache
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.AssemblyInfo.cs
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.csproj.CoreCompileInputs.cache
-C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.sourcelink.json
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\refint\Incrementor.Logic.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.pdb
