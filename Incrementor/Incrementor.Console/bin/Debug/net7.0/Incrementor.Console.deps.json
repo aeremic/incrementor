@@ -96,7 +96,10 @@
           "ClosedXML": "0.104.2"
         },
         "runtime": {
-          "Incrementor.Logic.dll": {}
+          "Incrementor.Logic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

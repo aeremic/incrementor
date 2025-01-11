@@ -22,3 +22,4 @@ C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incr
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\refint\Incrementor.Logic.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.pdb
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\ref\Incrementor.Logic.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Logic\obj\Debug\net7.0\Incrementor.Logic.sourcelink.json

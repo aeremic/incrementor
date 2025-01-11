@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "02U6NXtPMhQscKlCOpdZ5Fqng7UCaS+wsdevfUT+optkSOho0hpPfcavuCUbctitQEYJdiVNV9BQqCy3FwJgNQ==",
+  "dgSpecHash": "vfgEApCTcJQqqJ+V1EwIvHX+k2DoPR3JkK0wKc5t4E0Isep0STbLMcDOMiz4IF7JZffQT9Dyzw6+puA+CskWPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.WPF\\Incrementor.WPF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\rbush\\4.0.0\\rbush.4.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

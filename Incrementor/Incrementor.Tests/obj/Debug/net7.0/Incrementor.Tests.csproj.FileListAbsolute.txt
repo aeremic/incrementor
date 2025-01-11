@@ -9,4 +9,4 @@ C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incr
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\refint\Incrementor.Tests.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.pdb
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\ref\Incrementor.Tests.dll
-C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.csproj.AssemblyReference.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.sourcelink.json

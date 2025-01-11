@@ -29,7 +29,6 @@ C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\In
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.AssemblyInfoInputs.cache
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.AssemblyInfo.cs
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.csproj.CoreCompileInputs.cache
-C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.csproj.CopyComplete
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\refint\Incrementor.Console.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.pdb
@@ -43,3 +42,5 @@ C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Debug\net7.0\Ex
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Debug\net7.0\RBush.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Debug\net7.0\SixLabors.Fonts.dll
 C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incrementor.Console.sourcelink.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Console\obj\Debug\net7.0\Incremen.3A27BE70.Up2Date

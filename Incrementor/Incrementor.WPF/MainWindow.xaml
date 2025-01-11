@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Incrementor.WPF"
         mc:Ignorable="d"
-        Title="Incrementor" Height="125" Width="350">
+        Title="Incrementor" Height="145" Width="480">
     <Grid Margin="0,0,0,-6">
-        <TextBox HorizontalAlignment="Left" Margin="119,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" Height="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="119,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" Height="18"/>
-        <Button Content="..." HorizontalAlignment="Left" Margin="293,20,0,0" VerticalAlignment="Top" Width="25"/>
-        <Button Content="..." HorizontalAlignment="Left" Margin="293,43,0,0" VerticalAlignment="Top" Width="25"/>
+        <TextBox x:Name="InputLocationTextBox" HorizontalAlignment="Left" Margin="119,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="282" Height="18"/>
+        <TextBox x:Name="SaveLocationTextBox" HorizontalAlignment="Left" Margin="119,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="282" Height="18"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="406,20,0,0" VerticalAlignment="Top" Width="25" Click="InputLocationButton_Click"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="406,43,0,0" VerticalAlignment="Top" Width="25" Click="SaveLocationButton_Click"/>
         <Label Content="Input location: " HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
         <Label Content="Save location: " HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="320,67,0,0" VerticalAlignment="Top" Width="111" Click="StartButton_Click"/>
 
     </Grid>
 </Window>
