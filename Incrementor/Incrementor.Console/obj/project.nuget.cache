@@ -1,10 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "1+3QG9PkzUkGF1iaGhk4wGPAwNl3AMb4SMKuNhSd22yb0ngyuqfPdzQKBckcRsWAEA5U6Jqw//znUWVQrT1aDA==",
+  "dgSpecHash": "0+DlE666C3lXzBYp++CJnYtaIX+1Ew6DEKsbUGxhFL9qYa6qsd1OA37KrY/Txps26SIttOx7CwTgmhG2RXu0hw==",
   "success": true,
-  "projectFilePath": "/Users/eremic/Incrementor/Incrementor/Incrementor.Console/Incrementor.Console.csproj",
+  "projectFilePath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Console\\Incrementor.Console.csproj",
   "expectedPackageFiles": [
-    "/Users/eremic/.nuget/packages/microsoft.office.interop.excel/15.0.4795.1001/microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\rbush\\4.0.0\\rbush.4.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

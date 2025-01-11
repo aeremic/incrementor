@@ -1,0 +1,12 @@
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\bin\Debug\net7.0\Incrementor.Tests.deps.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\bin\Debug\net7.0\Incrementor.Tests.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\bin\Debug\net7.0\Incrementor.Tests.pdb
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.AssemblyInfoInputs.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.AssemblyInfo.cs
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.sourcelink.json
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\refint\Incrementor.Tests.dll
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\Incrementor.Tests.pdb
+C:\Users\Andrija\incrementor\Incrementor\Incrementor.Tests\obj\Debug\net7.0\ref\Incrementor.Tests.dll

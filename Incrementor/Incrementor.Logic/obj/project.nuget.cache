@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "+YroBN6YmC40nygrOh0P5ux68q8SZkatd8cwYrHjDO2XfAqK5Mqb7duPH962nNunTXGlp8nU2XedUjmkQ/KL/g==",
+  "dgSpecHash": "OX6ztjWRPuhX5aiGr6g7aR+6B9tMHcWnys3+0SU0xPOUbCdW7ha4lYonOJ3Z5JblPflKIOZUzoudJQJQ4MiDSg==",
   "success": true,
-  "projectFilePath": "/Users/eremic/Incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj",
+  "projectFilePath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\Incrementor.Logic.csproj",
   "expectedPackageFiles": [
-    "/Users/eremic/.nuget/packages/microsoft.office.interop.excel/15.0.4795.1001/microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\rbush\\4.0.0\\rbush.4.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Andrija\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

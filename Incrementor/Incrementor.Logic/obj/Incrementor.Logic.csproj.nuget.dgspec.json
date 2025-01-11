@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eremic/incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj": {}
+    "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\Incrementor.Logic.csproj": {}
   },
   "projects": {
-    "/Users/eremic/incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj": {
+    "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\Incrementor.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eremic/incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\Incrementor.Logic.csproj",
         "projectName": "Incrementor.Logic",
-        "projectPath": "/Users/eremic/incrementor/Incrementor/Incrementor.Logic/Incrementor.Logic.csproj",
-        "packagesPath": "/Users/eremic/.nuget/packages/",
-        "outputPath": "/Users/eremic/incrementor/Incrementor/Incrementor.Logic/obj/",
+        "projectPath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\Incrementor.Logic.csproj",
+        "packagesPath": "C:\\Users\\Andrija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrija\\incrementor\\Incrementor\\Incrementor.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/eremic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Andrija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/EsgeniusConsulting/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -39,9 +40,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.Office.Interop.Excel": {
+            "ClosedXML": {
               "target": "Package",
-              "version": "[15.0.4795.1001, )"
+              "version": "[0.104.2, )"
             }
           },
           "imports": [
@@ -55,12 +56,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/eremic/.dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.111\\RuntimeIdentifierGraph.json"
         }
       }
     }

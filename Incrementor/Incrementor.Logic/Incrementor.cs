@@ -1,70 +1,43 @@
 ﻿namespace Incrementor.Logic;
-using Interop = Microsoft.Office.Interop.Excel; 
+
+using ClosedXML.Excel;
 
 public class Incrementor
 {
-    public bool CalculateData(string inputFilePath)
+    public (bool, string) ProcessData(string inputFilePath)
     {
-        var result = false;
-        
-        // load
-        var excelApplication = new Interop.Application();
-        var excelWorkbook = excelApplication.Workbooks
-            .Open(
-                inputFilePath, 
-                0,
-                true, 
-                5, 
-                "", 
-                "", 
-                true, 
-                Interop.XlPlatform.xlWindows, 
-                "\t", 
-                false, 
-                false, 
-                0, 
-                true, 
-                1, 
-                0);
-        var excelWorksheet = (Interop.Worksheet)excelWorkbook.Worksheets.Item[1];
-
-        var usedRange = excelWorksheet.UsedRange;
-        var rowsCount = usedRange.Rows.Count;
-        var columnsCount = usedRange.Columns.Count;
-        
-        // var data = [,] save all data into matrix and then increment it separately into new sheet
-        for (var i = 1; i <= rowsCount; i++)
+        try
         {
-            for (var j = 1; j <= columnsCount; j++)
+            const string outputFilePath = "Output.xlsx";
+            
+            var workbook = new XLWorkbook(inputFilePath);
+            var worksheet = workbook.Worksheet(1);
+
+            var columnNumber = worksheet.LastColumnUsed()!.ColumnNumber();
+
+            for (var i = 1; i < worksheet.LastRowUsed()!.RowNumber() + 1; i++)
             {
-                // Console.WriteLine((string)(usedRange.Cells[i, j] as Interop.Range)?.Value2!);
-                System.Diagnostics.Debug.WriteLine((string)(usedRange.Cells[i, j] as Interop.Range)?.Value2!);
-                usedRange.Cells[i, j + 1] = "new value";
+                for (var j = 1; j < columnNumber + 2; j++)
+                {
+                    // worksheet.Cell(i, j).Value = i + ":" + j;
+                    if (j > 1 && worksheet.Cell(i, j).IsEmpty()
+                              && !worksheet.Cell(i, j - 1).IsEmpty())
+                    {
+                        worksheet.Cell(i, j).Value = decimal.Parse(
+                            worksheet.Cell(i, j - 1).Value.ToString()) + 1;
+                    }
+                }
             }
+
+            workbook.SaveAs(outputFilePath);
+
+            return (true, outputFilePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Unhandled exception: ${0}", ex);
         }
 
-        // excelWorkbook.Close(true, "testingExcel", null);
-        var outputFileName = "";
-        excelWorkbook.SaveAs(
-            outputFileName, 
-            System.Reflection.Missing.Value,
-            System.Reflection.Missing.Value,
-            System.Reflection.Missing.Value, 
-            System.Reflection.Missing.Value, 
-            System.Reflection.Missing.Value,
-            Interop.XlSaveAsAccessMode.xlNoChange, 
-            System.Reflection.Missing.Value, 
-            System.Reflection.Missing.Value, 
-            System.Reflection.Missing.Value,
-            System.Reflection.Missing.Value,
-            System.Reflection.Missing.Value);
-        
-        excelApplication.Quit();
-        
-        // calculate
-        
-        // save
-        
-        return result;
+        return (false, "");
     }
 }
